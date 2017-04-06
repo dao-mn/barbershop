@@ -8,9 +8,9 @@
      <link rel="stylesheet" href="style/style.css">
    </head>
    <body>
-     <header class="main-header">
+     <header class="main_header">
        <div class="container clearfix">
-       <nav class="main-navigation">
+       <nav class="main_navigation">
          <ul> <!-- список навигационного меню -->
            <li>
              <a href="#"> Главная </a>
@@ -32,32 +32,32 @@
            </li>
          </ul>
        </nav>
-       <div class="user-block">
+       <div class="user_block">
          <a class="login" href="#"> Вход </a> <!-- ссылка на login (авторизацию)-->
        </div>
      </div>
      </header>
      <main class="container"> <!-- уникальный тег, используется один раз на странице. class="container" нужен для центровки (см. предыдущий div) -->
-       <div class="index-logo clearfix">
+       <div class="index_logo clearfix">
          <img src="img/index-logo.png" width="368" height="204" alt="Барбершоп Бородинский"> <!-- img предназначен для содержательных изображений -->
        </div>
        <section class="features clearfix"> <!-- смысловой блок с приемуществами, и классом features (функции)-->
-         <div class="features-item"> <!-- декоративный блок с классом features-item(функции-пункт)-->
-           <b class="features-name"> Быстро </b> <!-- текст с классом features-name(функции-имя)-->
+         <div class="features_item"> <!-- декоративный блок с классом features-item(функции-пункт)-->
+           <b class="features_name"> Быстро </b> <!-- текст с классом features-name(функции-имя)-->
            <p> Мы делаем свою работу быстро! Два часа
              пролетят незаметно и вы - счастливый
              обладатель стильной стрижки-минутки!
            </p>
          </div>
-         <div class="features-item">
-           <b class="features-name"> Круто </b>
+         <div class="features_item">
+           <b class="features_name"> Круто </b>
            <p> Забудте, как вы стриглись раньше.
              Мы сделаем из Вас звезду футбола или кино!
              Во всяклм случае внешне.
            </p>
          </div>
-         <div class="features-item">
-           <b class="features-name"> Дорого </b>
+         <div class="features_item">
+           <b class="features_name"> Дорого </b>
            <p> Наши мастера - профессионалы своего дела
              и не могут стоить дешево. К тому же, разве цена
              не дает определенный статус?
@@ -65,9 +65,9 @@
          </div>
        </section>
        <div class="index-content clearfix">
-         <div class="index-content-left">
-           <h2 class="index-content-title"> Новости </h2>
-           <ul class="news-prevew"> <!--список для новостей, с классом news-prevew(новости превью)-->
+         <div class="index_content_left">
+           <h2 class="index_content_title"> Новости </h2>
+           <ul class="news_prevew"> <!--список для новостей, с классом news-prevew(новости превью)-->
              <li>
                <p> Нам наконец завезли ягерматер! Теперь
                  вы можете пропустить стаканчик во время стрижки.
@@ -85,20 +85,20 @@
                <a class="btn" href="#"> Все новости </a>
 
          </div> <!-- разобрать конкретно -->
-         <div class="index-content-right">
-           <h2 class="index-content-title"> Фотогалерея </h2>
+         <div class="index_content_right">
+           <h2 class="index_content_title"> Фотогалерея </h2>
            <div class="gallery">
-           <figure class="gallery-content">
+           <figure class="gallery_content">
              <img src="img/photo-1.jpg" width="286" height="164" alt="">
            </figure>
-           <button class="btn gallery-prev"> Назад </button>
-           <button class="btn gallery-next"> Вперед </button>
+           <button class="btn gallery_prev"> Назад </button>
+           <button class="btn gallery_next"> Вперед </button>
          </div>
        </div>
        </div>
-       <div class="index-content clearfix">
-         <div class="index-content-left">
-           <h2 class="index-content-title"> Контактная информация </h2>
+       <div class="index_content clearfix">
+         <div class="index_content_left">
+           <h2 class="index_content_title"> Контактная информация </h2>
            <p> Барбершоп "Бородинский" <br>
              Адрес: г.Санкт-Петербург, б.Конющенная, д.19/8 <br>
              Телефон: +7(495)666-02-66
@@ -110,12 +110,12 @@
            <a class="btn" href="#"> Как проехать </a>
            <a class="btn" href="#"> Обратная связь </a>
          </div>
-         <div class="index-content-right"> <!-- разобратся с формой -->
-           <h2 class="index-content-title"> Записаться </h2>
+         <div class="index_content_right"> <!-- разобратся с формой -->
+           <h2 class="index_content_title"> Записаться </h2>
            <p> Укажите желаемую дату и время и мы свяжемся
              с Вами для подтверждения брони
            </p>
-           <form class="appointment-form"
+           <form class="appointment_form"
            action="https://echo.htmlacademy.ru" method="post">
              <input type="text" name="date" value="" placeholder="Дата">
              <input type="text" name="time" value="" placeholder="Время">
@@ -127,21 +127,21 @@
         </div>
 
      </main>
-     <footer class="main-foter">
+     <footer class="main_foter">
        <div class="container clearfix">
-       <section class="foter-contacts">
+       <section class="foter_contacts">
            Барбершоп "Бородинский" <br>
            Адрес: г.Санкт-Петербург, ул.Б.Конюшенная, д.19/8 <br>
            <a href="#"> Как нас найти </a> <br>
            Телефон: +7(495)666-02-66
        </section>
-       <section class="foter-social">
+       <section class="foter_social">
          <p> Давайте дружить </p>
-             <a class="social-btn social-btn-vk" href="#"> ВК </a>
-             <a class="social-btn social-btn-fb" href="#"> фейсбук </a>
-             <a class="social-btn social-btn-inst" href="#"> инстаграм </a>
+             <a class="social_btn social_btn_vk" href="#"> ВК </a>
+             <a class="social_btn social_btn_fb" href="#"> фейсбук </a>
+             <a class="social_btn social_btn_inst" href="#"> инстаграм </a>
        </section>
-       <section class="foter-copyright">
+       <section class="foter_copyright">
          <p> разработано </p>
          <a class="btn" href="https://htmlacademy.ru/"> htmlacademy.ru </a>
        </section>
